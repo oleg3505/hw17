@@ -5,9 +5,114 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #15202B;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.anakin_img{
+  margin-left: 10px ;
+  border-radius: 50%;
+  width: 50px;
+  padding: 10px;
+}
+.ray_img{
+  border-radius: 20px;
+  width: 600px;
+}
+.to_post{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.post{
+  margin-top: 10px;
+  min-height: 400px;
+  width: 700px;
+  border: 2px double #778794;
+  display: flex;
+  justify-content: start;
+  margin: auto;
+}
+
+.author_post{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.left{
+  width: 80px;
+  min-height: 400px;
+}
+
+.author_info{
+  display: flex;
+  gap: 5px;
+  padding-top: 15px;
+}
+
+.content{
+  padding: 10px;
+  color: #EDEEEE;
+}
+.name{
+  font-weight: bold;
+  color: #EDEEEE;
+}
+.date {
+  font-weight: bold;
+color: #778794;
+}
+.nickname{
+  font-weight: bold;
+  color: #778794;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  
+
+}
+
+.arrow{
+  width: 15px;
+  margin-left: 210px;
+  
+}
+.official{
+  width: 15px;
+}
+.like{
+  width: 15px;
+}
+
+.footer_element{
+  width: 20px;
+}
+.footer{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 100px;
+}
+.footer_icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 10px;
+}
+.footer_icon:hover{
+  box-shadow: 0px 0px 2px 5px rgba(0,0,0, 0.50);
+  border-radius: 5px;
+
+}
+
+
+.number{
+  color: #EDEEEE;
+  font-weight: 500;
 }
